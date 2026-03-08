@@ -1267,7 +1267,7 @@ These genes participate in glycosylation pathways, which affect:
 
 # 2. Down-Spliced Gene Network Interpretation
 
-![STRING Network](string_results/string_normal_image(1).png)
+![STRING Network](string_results/string_normal_image (1).png)
 
 The down-spliced gene network is less dense than the up-spliced network.
 
