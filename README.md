@@ -817,6 +817,8 @@ Five major classes of alternative splicing events were analyzed:
 
 # Distribution of Alternative Splicing Events
 
+![rMATS Event Distribution](results/rmats_event_distribution.png)
+
 Skipped exon (SE) events were the most frequent alternative splicing event, followed by retained introns.
 
 Observations
@@ -841,6 +843,8 @@ High intron retention events suggest potential regulation at the level of RNA st
 
 # Differential Splicing Volcano Plot
 
+![Volcano Plot](results/rmats_volcano_plot.png)
+
 The volcano plot displays the relationship between:
 
 • PSI difference (ΔPSI)
@@ -859,6 +863,8 @@ Significant points represent transcripts undergoing differential exon inclusion,
 ---
 
 # Top Differential Splicing Events
+
+![Top Splicing Genes](results/top_splicing_gene_symbols.png)
 
 Top genes with significant splicing changes include:
 
@@ -886,6 +892,8 @@ These isoform changes may affect protein structure or regulatory activity.
 ---
 
 # Heatmap of Alternative Splicing Patterns
+
+![PSI Heatmap](results/psi_heatmap.png)
 
 The heatmap shows PSI values across tumor and normal samples.
 
@@ -985,6 +993,8 @@ Differential alternative splicing genes identified from the rMATS analysis were 
 
 # 1. Down-Spliced Pathways (Lower Exon Inclusion in Tumor)
 
+![KEGG Down](enrichr_results/kegg_down.png)
+
 The KEGG enrichment results revealed several pathways enriched among genes showing reduced exon inclusion.
 
 ## Top enriched pathways
@@ -1059,6 +1069,8 @@ Enrichment of Nicotinate and Nicotinamide metabolism indicates potential changes
 ---
 
 # 2. Up-Spliced Pathways (Higher Exon Inclusion in Tumor)
+
+![KEGG Up](enrichr_results/kegg_up.png)
 
 Genes showing increased exon inclusion were enriched in several pathways related to DNA repair, immune response, and cytoskeletal organization.
 
@@ -1182,6 +1194,8 @@ The analysis indicates that alternative splicing may contribute to functional al
 
 # 1. Up-Spliced Gene Network Interpretation
 
+![STRING Network](string_results/string_normal_image.png)
+
 ## Key hub genes in the center
 
 Important nodes visible in your network include:
@@ -1252,6 +1266,8 @@ These genes participate in glycosylation pathways, which affect:
 ---
 
 # 2. Down-Spliced Gene Network Interpretation
+
+![STRING Network](string_results/string_normal_image(1).png)
 
 The down-spliced gene network is less dense than the up-spliced network.
 
