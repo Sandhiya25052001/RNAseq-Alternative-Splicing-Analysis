@@ -430,17 +430,6 @@ The majority of reads passed filtering and retained high Q20 and Q30 scores, ens
 
 ---
 
-# RNA-seq Pipeline
-
-1. Quality Control (FastQC)
-2. Read Trimming (fastp)
-3. Alignment (HISAT2)
-4. Gene Quantification (featureCounts)
-5. Differential Expression (DESeq2)
-6. Pathway Analysis (GSEA)
-
----
-
 # Genome Alignment Using STAR (Two-Pass Mode)
 
 RNA-seq reads were aligned to the human reference genome (GRCh38) using STAR in two-pass mode, which improves splice junction detection and mapping accuracy.
